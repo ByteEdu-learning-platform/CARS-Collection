@@ -1,4 +1,4 @@
-The website is build on t
+The website is build on the following technologies & format-
 
 
 car-website/
