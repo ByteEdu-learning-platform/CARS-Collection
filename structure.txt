@@ -1,0 +1,13 @@
+The websiiiiiiiiiite is build on t
+
+
+car-website/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── scripts.js
+├── images/
+└── gallery.html
+└── about.html
+└── contact.html
