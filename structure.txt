@@ -7,7 +7,7 @@ car-website/
 │   └── styles.css
 ├── js/
 │   └── scripts.js
-├── images/
+├── images/(All photos for Gallery, Crousel and Cards)
 └── gallery.html
 └── about.html
 └── contact.html
