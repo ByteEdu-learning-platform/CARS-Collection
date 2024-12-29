@@ -1,54 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Website - Home</title>
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <!-- Navigation Bar -->
 
+    <!-- Navigation Bar Starts-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Car Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar Ends-->
 
-    <!-- Nav bar ends -->
+    <!-- Carousel Starts-->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Crousel 1.webp" class="d-block w-100 carousel-image" alt="CAR 1">
+            </div>
+            <div class="carousel-item">
+                <img src="images/Crousel 2.webp" class="d-block w-100 carousel-image" alt="CAR 2">
+            </div>
+            <div class="carousel-item">
+                <img src="images/Crousel 3.avif" class="d-block w-100 carousel-image" alt="CAR 3">
+            </div>
+        </div>
+    </div>
+    <!-- Carousel Ends -->
 
+    <!-- Card Section Starts -->
+    <div class="container my-5">
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <img src="images/2019 Mahindra XUV700.avif" class="card-img-top" alt="Mahindra XUV700">
+                    <div class="card-body">
+                        <h5 class="card-title">Mahindra XUV700</h5>
+                        <p class="card-text">The Mahindra XUV700 is a flagship SUV with advanced features, powerful performance, and modern design.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <img src="images/Land Rover Defender.webp" class="card-img-top" alt="Land Rover Defender">
+                    <div class="card-body">
+                        <h5 class="card-title">Land Rover Defender</h5>
+                        <p class="card-text">An iconic, rugged SUV that combines off-road capability with sophisticated design.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <img src="images/Maruti FRONX.webp" class="card-img-top" alt="Maruti FRONX">
+                    <div class="card-body">
+                        <h5 class="card-title">Maruti FRONX</h5>
+                        <p class="card-text">A sleek, feature-packed crossover that offers dynamic driving and fuel efficiency.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <img src="images/2020 Mahindra Thar ROXX.avif" class="card-img-top" alt="Mahindra Thar ROXX">
+                    <div class="card-body">
+                        <h5 class="card-title">Mahindra Thar ROXX</h5>
+                        <p class="card-text">A bold off-road-ready variant of the Thar, designed for adventurous driving.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card Section Ends -->
 
+    <!-- Footer Starts-->
+    <footer class="custom-footer">
+        <div class="container">
+            <div class="row text-center">
+                <!-- About Section -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="footer-heading">About Us</h5>
+                    <p class="footer-text">
+                        Welcome to our car collection website! Explore the latest car models, features, and reviews. Your ultimate destination for car enthusiasts.
+                    </p>
+                </div>
 
+                <!-- Links Section -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
 
-
-    <!-- Carousel -->
-      
-    
-    <!-- Crousel Ends -->
-
-
-
-
-
-    <!-- Card Section -->
-
-    
-    <!-- Card Section ends -->
-
-
-
-
-
-    <!-- Footer -->
-
-
-    <!-- Footer ends -->
-
-
-
-    
+                <!-- Contact Section -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="footer-heading">Contact Us</h5>
+                    <p class="footer-text"><i class="bi bi-geo-alt-fill"></i> 123 Car Avenue, Auto City</p>
+                    <p class="footer-text"><i class="bi bi-telephone-fill"></i> +123 456 7890</p>
+                    <p class="footer-text"><i class="bi bi-envelope-fill"></i> info@carwebsite.com</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom text-center">
+                &copy; 2024 Car Website. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ends-->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script src="js/scripts.js"></script>
 </body>
+
 </html>

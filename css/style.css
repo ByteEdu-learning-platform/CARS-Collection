@@ -1,33 +1,26 @@
 /* Custom navbar styles */
 .custom-navbar {
   height: 90px;
-  background:#282727 !important; 
-  color: #f7f7f7; 
+  background: #282727 !important;
+  color: #f7f7f7;
   padding: 10px;
 }
 
-
-/* Adjust the font size of links */
 .custom-navbar .nav-link {
-  font-size: 22px; 
+  font-size: 22px;
   padding: 10px 15px;
   color: #f8f8f8;
 }
 
-
-/* Add hover effects */
 .custom-navbar .nav-link:hover {
   background-color: #696969;
-   border-radius: 5px; 
+  border-radius: 5px;
 }
 
-
-/* Navbar brand styling */
 .custom-navbar .navbar-brand {
-  font-size: 28px; 
+  font-size: 28px;
   font-weight: bold;
 }
-
 
 /* Footer Styles */
 .custom-footer {
@@ -38,7 +31,7 @@
 
 .footer-heading {
   font-size: 20px;
-  color: #970909; /* Accent color for headings */
+  color: #970909;
   margin-bottom: 15px;
   text-transform: uppercase;
   font-weight: bold;
@@ -93,4 +86,15 @@
   font-size: 14px;
   color: #aaaaaa;
   margin-top: 20px;
+}
+
+/* Custom Styles for Gallery and Content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
 }
