@@ -1,22 +1,13 @@
 /* Custom navbar styles */
 .custom-navbar {
   height: 90px;
-<<<<<<< HEAD
-  background: #1a1a1a !important; 
-  color: #f7f7f7; 
-=======
   background: #282727 !important;
   color: #f7f7f7;
->>>>>>> c466e09f85fb36d8664c28744f190199db5a631c
   padding: 10px;
 }
 
 .custom-navbar .nav-link {
-<<<<<<< HEAD
-  font-size: 20px; 
-=======
-  font-size: 22px;
->>>>>>> c466e09f85fb36d8664c28744f190199db5a631c
+  font-size: 23px;
   padding: 10px 15px;
   color: #f8f8f8;
 }
@@ -27,9 +18,10 @@
 }
 
 .custom-navbar .navbar-brand {
-  font-size: 28px;
+  font-size: 32px;
+  padding: 10px;
   font-weight: bold;
-  color: #9a0505 !important;
+  color: #da0b0b !important;
 }
 
 /* Footer Styles */
