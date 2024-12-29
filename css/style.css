@@ -1,48 +1,37 @@
-/* Custom Navbar Styles
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.navbar-nav .nav-link {
-  font-size: 1.1rem;
-  margin-right: 1rem;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #f8f9fa;
-}
-
-.navbar-dark .navbar-nav .nav-link.active {
-  color: #ffc107;
-} */
 /* Custom navbar styles */
 .custom-navbar {
   height: 90px;
+<<<<<<< HEAD
   background: #1a1a1a !important; 
   color: #f7f7f7; 
+=======
+  background: #282727 !important;
+  color: #f7f7f7;
+>>>>>>> c466e09f85fb36d8664c28744f190199db5a631c
   padding: 10px;
 }
 
-/* Adjust the font size of links */
 .custom-navbar .nav-link {
+<<<<<<< HEAD
   font-size: 20px; 
+=======
+  font-size: 22px;
+>>>>>>> c466e09f85fb36d8664c28744f190199db5a631c
   padding: 10px 15px;
   color: #f8f8f8;
 }
 
-/* Add hover effects */
 .custom-navbar .nav-link:hover {
   background-color: #696969;
-   border-radius: 5px; 
+  border-radius: 5px;
 }
 
-/* Navbar brand styling */
 .custom-navbar .navbar-brand {
-  font-size: 28px; 
+  font-size: 28px;
   font-weight: bold;
   color: #9a0505 !important;
 }
+
 /* Footer Styles */
 .custom-footer {
   background-color: #1a1a1a;
@@ -52,7 +41,7 @@
 
 .footer-heading {
   font-size: 20px;
-  color: #970909; /* Accent color for headings */
+  color: #970909;
   margin-bottom: 15px;
   text-transform: uppercase;
   font-weight: bold;
@@ -107,4 +96,15 @@
   font-size: 14px;
   color: #aaaaaa;
   margin-top: 20px;
+}
+
+/* Custom Styles for Gallery and Content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
 }

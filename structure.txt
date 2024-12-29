@@ -1,13 +1,13 @@
-The website is build on the following technologies & format-
-
-
-car-website/
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── scripts.js
-├── images/
-└── gallery.html
-└── about.html
-└── contact.html
+/project-root
+    /css
+        style.css
+    /images
+        Crousel 1.webp
+        Crousel 2.webp
+        Crousel 3.avif
+    /js
+        scripts.js
+    index.html
+    gallery.html
+    about.html
+    contact.html
