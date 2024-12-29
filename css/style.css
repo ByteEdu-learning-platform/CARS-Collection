@@ -41,7 +41,7 @@
 .custom-navbar .navbar-brand {
   font-size: 28px; 
   font-weight: bold;
-  color: #9a0505;
+  color: #9a0505 !important;
 }
 /* Footer Styles */
 .custom-footer {
