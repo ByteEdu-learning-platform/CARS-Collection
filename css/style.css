@@ -64,6 +64,7 @@
   color: #d81616;
 }
 
+
 .social-icons {
   margin-top: 15px;
 }
@@ -114,3 +115,31 @@
   text-decoration: none;      
   transition: background-color 0.3s ease, transform 0.3s ease; 
 }
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
+}
+
+
+.image-row {
+  display: flex;
+justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+.image-row img {
+  width: 19%; 
+  height: auto;
+  border-radius: 5px; 
+  
+  ;
+}
+
+footer {
+
+      margin-top: 20px; }
+
+  
+
