@@ -117,3 +117,28 @@
   width: 100%;
   height: auto;
 }
+.card{
+  object-fit: contain;
+}
+/* Card hover effect */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Image styling for uniformity */
+.gallery-img {
+  width: 100%; /* Make the image fill the container width */
+  height: 200px; /* Fixed height for all images */
+  object-fit: cover; /* Crop the image to fit the container dimensions */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+/* Optional: Center alignment of the gallery section */
+.container {
+  text-align: center;
+}
