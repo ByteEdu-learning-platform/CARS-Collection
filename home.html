@@ -1,178 +1,327 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--icon-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Website - Home</title>
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css">
+<style>
+      .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-evenly;
+      }
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-    <!-- Navigation Bar -->
-
-
-
-    <!-- Nav bar ends -->
-
-
-
-
-
-    <!-- Carousel -->
-   
       
-      
-      
-=======
-    <!-- Navigation Bar Starts-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+    </style> 
+  </head>
+  <body>
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Car Website</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+          <a class="navbar-brand" href="#">CarCollection</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav> -->
+      <!-- navbar start -->
+     <nav class="navbar navbar-expand-lg" style="color: white; background-color: rgba(255, 0, 0, 0.8); padding: 10px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: white; font-size: x-large;" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" style="color: white;">
+            <li class="nav-item">
+              <a class="nav-link active" style="color: white; font-size: 1.1em;"href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;  font-size: 1.1em;" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"style="color: white; font-size: 1.1em " href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white; font-size: 1.1em "href="contact.html">Contact us</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
     </nav>
-    <!-- Navigation Bar Ends-->
->>>>>>> c466e09f85fb36d8664c28744f190199db5a631c
+     <!-- navbar end -->
 
+    
     <!-- Carousel Starts-->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/Crousel 1.webp" class="d-block w-100 carousel-image" alt="CAR 1">
-            </div>
-            <div class="carousel-item">
-                <img src="images/Crousel 2.webp" class="d-block w-100 carousel-image" alt="CAR 2">
-            </div>
-            <div class="carousel-item">
-                <img src="images/Crousel 3.avif" class="d-block w-100 carousel-image" alt="CAR 3">
-            </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg" class="d-block w-100" alt="..." style="height: 600px; object-fit: cover;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Modern Marvels</h5>
+            <p>Experience the charm of timeless designs.
+              Vintage cars that defined an era.
+              A journey into automotive history.
+              
+              </p>
+          </div>
         </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="..." style="height: 600px; object-fit: cover;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Vintage Classics</h5>
+            <p>Discover cutting-edge performance and technology.
+              Supercars designed to thrill and inspire.
+              Where speed meets sophistication.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/1383834/pexels-photo-1383834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="..." style="height: 600px; object-fit: cover;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5> Rare Finds</h5>
+            <p>A collection of unique and iconic vehicles.
+              Cars that tell a story of rarity and beauty.
+              Explore the extraordinary.
+              </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <!-- Carousel Ends -->
+  <!-- Carousel Ends -->
+     <br>
+     <h1 style="text-align:center;color:orangered;">More Info</h1>
+<hr>
+     <!-- cards for more info start -->
+      <div class="card-container">
+        <div class="card" style="width: 23rem;">
+          <img src="https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top"style="height:200px; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Red Ferrari</h5>
+            <p class="card-text">A symbol of Italian craftsmanship, the Red Ferrari delivers unmatched performance and timeless elegance.</p>
+            <br><a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" style="height:200px; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Blue Bmw Sedan Near Green Lawn Grass</h5>
+            <p class="card-text">The Blue BMW Sedan combines luxury and innovation, offering a serene driving experience with striking aesthetics.</p>
+            <a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img src="https://images.pexels.com/photos/544542/pexels-photo-544542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" style="height:200px; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Red Ford Mustang</h5>
+            <p class="card-text">SAn American icon, the Red Ford Mustang embodies power, style, and a legacy of muscle car heritage.</p>
+            <br><a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" style="height:200px; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">White Land Rover Range Rover Suv on Road</h5>
+            <p class="card-text">The White Range Rover SUV stands as the epitome of off-road capability and refined sophistication on any terrain.</p>
+            <a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- cards for more info end -->
+      <br>
+      <br>
+      <!-- new car cards start -->
+      <h1 style="text-align:center;color:orangered;">New Launch</h1>
+      <hr>
+      <div class="card-container">
+        <div class="card" style="width: 23rem;">
+          <img src="images/dee/2024 Chevrolet Traverse Limited.webp" class="card-img-top" style="height:200px; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">2024 Chevrolet Traverse Limited</h5>
+            <p class="card-text">A spacious midsize SUV offering three-row seating, advanced safety features, and a comfortable ride.</p>
+            <br><a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img src="images/dee/2024 Chevrolet Trax.jpg" class="card-img-top" style="height:200px; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">2024 Chevrolet Trax</h5>
+           <p class="card-text">An affordable subcompact SUV with a spacious cabin, user-friendly technology, and a smooth ride.</p>
+           <br> <a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img src="images/dee/2024 Mercedes-Benz AMG GT 55.jpg" class="card-img-top"  style="height:200px; object-fit: cover;"alt="...">
+          <div class="card-body">
+            <h5 class="card-title">2024 Mercedes-Benz AMG GT 55</h5>
+            <p class="card-text">A luxury sports car featuring a powerful engine, sleek design, and high-end <br> interior amenities.</p>
+           <br> <a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img src="images/dee/buick evista.jpeg" class="card-img-top" style="height:200px; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">2024 Buick Envista</h5>
+           <p class="card-text">A stylish compact SUV offering a comfortable interior, modern infotainment, and efficient performance.</p>
+            <br><a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+      </div>
+      <!-- new car end  -->
 
-    <!-- Card Section Starts -->
-    <div class="container my-5">
-        <div class="row g-4">
-            <!-- Card 1 -->
-            <div class="col-md-3">
-                <div class="card shadow-sm">
-                    <img src="images/2019 Mahindra XUV700.avif" class="card-img-top" alt="Mahindra XUV700">
-                    <div class="card-body">
-                        <h5 class="card-title">Mahindra XUV700</h5>
-                        <p class="card-text">The Mahindra XUV700 is a flagship SUV with advanced features, powerful performance, and modern design.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="col-md-3">
-                <div class="card shadow-sm">
-                    <img src="images/Land Rover Defender.webp" class="card-img-top" alt="Land Rover Defender">
-                    <div class="card-body">
-                        <h5 class="card-title">Land Rover Defender</h5>
-                        <p class="card-text">An iconic, rugged SUV that combines off-road capability with sophisticated design.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="col-md-3">
-                <div class="card shadow-sm">
-                    <img src="images/Maruti FRONX.webp" class="card-img-top" alt="Maruti FRONX">
-                    <div class="card-body">
-                        <h5 class="card-title">Maruti FRONX</h5>
-                        <p class="card-text">A sleek, feature-packed crossover that offers dynamic driving and fuel efficiency.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="col-md-3">
-                <div class="card shadow-sm">
-                    <img src="images/2020 Mahindra Thar ROXX.avif" class="card-img-top" alt="Mahindra Thar ROXX">
-                    <div class="card-body">
-                        <h5 class="card-title">Mahindra Thar ROXX</h5>
-                        <p class="card-text">A bold off-road-ready variant of the Thar, designed for adventurous driving.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
+      <br>
+      <br>
+      <!-- old car start -->
+      <h1 style="text-align:center;color:orangered;">Recent Launch</h1>
+      <hr>
+      <div class="card-container">
+        <div class="card" style="width: 23rem;">
+          <img src="images/yash/Kia Syros.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kia Syros</h5>
+            <p class="card-text">The Syros is an upcoming B-SUV from Kia that will be positioned above the Sonet in the brand's India range. </p>
+            <a href="#" class="btn btn-primary">Explore more</a>
+          </div>
         </div>
-    </div>
-    <!-- Card Section Ends -->
+        <div class="card" style="width: 23rem;">
+          <img src="images/yash/Mahindra Thar.e.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mahindra Thar</h5>
+            <p class="card-text">Mahindra Thar EV is a SUV which is expected to be launched in India in Mar 2026.</p>
+            <br><a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img src="images/yash/Maruti e Vitara.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Maruti e Vitara</h5>
+            <p class="card-text">The new Maruti Suzuki e Vitara is an upcoming SUV with a futuristic design <br>and shape.</p>
+            <a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img src="images/yash/MG Cyberster.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MG Cyberster</h5>
+            <p class="card-text">MG Cyberster is a Convertible which is expected to be launched in India <br> in Mar 2025</p>
+            <a href="#" class="btn btn-primary">Explore more</a>
+          </div>
+        </div>
+      </div>
+       <!-- new car start -->
+
+<br>
+<br>
 
     <!-- Footer Starts-->
     <footer class="custom-footer">
-        <div class="container">
-            <div class="row text-center">
-                <!-- About Section -->
-                <div class="col-md-4 mb-4">
-                    <h5 class="footer-heading">About Us</h5>
-                    <p class="footer-text">
-                        Welcome to our car collection website! Explore the latest car models, features, and reviews. Your ultimate destination for car enthusiasts.
-                    </p>
-                </div>
+      <div class="container">
+          <div class="row text-center">
+              <!-- About Section -->
+              <div class="col-md-4 mb-4">
+                  <h5 class="footer-heading">About Us</h5>
+                  <p class="footer-text">
+                      Welcome to our car collection website! Explore the latest car models, features, and reviews. Your ultimate destination for car enthusiasts.
+                  </p>
+              </div>
 
-                <!-- Links Section -->
-                <div class="col-md-4 mb-4">
-                    <h5 class="footer-heading">Quick Links</h5>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+              <!-- Links Section -->
+              <div class="col-md-4 mb-4">
+                  <h5 class="footer-heading">Quick Links</h5>
+                  <ul class="footer-links">
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                  </ul>
+              </div>
 
-                <!-- Contact Section -->
-                <div class="col-md-4 mb-4">
-                    <h5 class="footer-heading">Contact Us</h5>
-                    <p class="footer-text"><i class="bi bi-geo-alt-fill"></i> 123 Car Avenue, Auto City</p>
-                    <p class="footer-text"><i class="bi bi-telephone-fill"></i> +123 456 7890</p>
-                    <p class="footer-text"><i class="bi bi-envelope-fill"></i> info@carwebsite.com</p>
-                    <div class="social-icons">
-                        <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
+              <!-- Contact Section -->
+              <div class="col-md-4 mb-4">
+                  <h5 class="footer-heading">Contact Us</h5>
+                  <p class="footer-text"><i class="bi bi-geo-alt-fill"></i> 123 Car Avenue, Auto City</p>
+                  <p class="footer-text"><i class="bi bi-telephone-fill"></i> +123 456 7890</p>
+                  <p class="footer-text"><i class="bi bi-envelope-fill"></i> info@carwebsite.com</p>
+                  <div class="social-icons">
+                      <a href="#" class="social-link"><i class="bi bi- linkedin"></i></a>
+                      <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                      <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="footer-bottom text-center">
+              &copy; 2024 Car Website. All rights reserved.
+          </div>
+      </div>
+  </footer>
+  <!-- Footer Ends-->
+      <!-- footer start -->
+      <!-- <footer>
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat, nobis nisi perferendis voluptas numquam!</p>
+          </div>
+          <div class="footer-section">
+            <h3>quick Links</h3>
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#"> linkedin</a>
+              <a href="#">Twiiter</a>
+              <a href="#">Instagram</a>
             </div>
-            <hr>
-            <div class="footer-bottom text-center">
-                &copy; 2024 Car Website. All rights reserved.
-            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2024 Car-collection. All rights Reserved Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, maxime.</p>
+          </div>
         </div>
-    </footer>
-    <!-- Footer Ends-->
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+      </footer> -->
+      <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
